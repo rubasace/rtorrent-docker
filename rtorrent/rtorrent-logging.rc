@@ -1,0 +1,2 @@
+log.open_file = "rtorrent.log", (cat,/tmp/rtorrent.log)
+log.add_output = "info", "rtorrent.log"
