@@ -10,8 +10,7 @@ services:
       - /mnt/media/rtorrent-container:/home/rtorrent
     ports:
       - 7200:7200
-
-
+    restart: always
 
 networks:
   torrent:
