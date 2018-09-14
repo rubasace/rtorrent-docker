@@ -6,7 +6,7 @@ services:
     networks:
       - torrent
     volumes:
-      - /mnt/media:/mnt/media
+      - /mnt/media:/home/media
       - /mnt/media/rtorrent-container:/home/rtorrent
     ports:
       - 7200:7200
