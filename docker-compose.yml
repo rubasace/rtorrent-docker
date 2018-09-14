@@ -1,0 +1,17 @@
+version: "2"
+
+services:
+  rtorrent:
+    build: .
+    networks:
+      - torrent
+    volumes:
+      - /mnt/media:/mnt/media
+      - /mnt/media/rtorrent-container:/home/rtorrent
+    ports:
+      - 7200:7200
+
+
+
+networks:
+  torrent:
